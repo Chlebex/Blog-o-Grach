@@ -1,0 +1,101 @@
+body{
+    background-color: palegreen;
+}
+#powitanie{
+    background-color: greenyellow;
+font-size: 30px;
+
+}
+#gra2{
+    background-color: greenyellow;
+}
+#Minecraft:hover{
+color: rgb(255, 255, 255);
+font-size: 60px;
+transition-duration: 0.5s;
+background-color: black;
+}
+
+.zdjęcia{
+width:200px;
+height: 200px;
+transition-duration: 0.5s;
+}
+
+.zdjęcia:hover{
+width:600px;
+height: 600px;
+transition-duration: 1.5s;
+rotate: 9000deg;
+
+}
+
+
+#gra2:hover{
+color: rgb(255, 255, 255);
+font-size: 60px;
+transition-duration: 0.5s;
+background-color: black;
+}
+
+
+
+
+
+#iphone:hover{
+width:7000;
+height:7000;
+transition-duration: 1s;
+}
+#iphone{
+width: 200px;
+height: 200px;
+transition-duration: 7s;
+
+}
+
+
+
+#nawigacja{
+width: 100%;
+background-color: black;
+display:flex;
+justify-content:space-between;
+font-size: 30px;
+
+
+}
+
+#nawigacja a{
+color: aliceblue;
+text-decoration: none;
+
+
+}
+#nawigacja a:hover{
+color: red;
+background-color: darkslategray;
+transition-duration: 0.4s;
+border-radius: 25px;
+rotate: 360deg;
+font-size: 40px;
+}
+
+
+
+
+
+#gra3:hover{
+color: rgb(255, 255, 255);
+font-size: 60px;
+transition-duration: 0.5s;
+background-color: black
+}
+
+
+#gra3{
+    background-color: greenyellow;
+}
+#Minecraft{
+    background-color: greenyellow;
+}
