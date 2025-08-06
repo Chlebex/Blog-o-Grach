@@ -20,6 +20,7 @@ background-color: black;
 width:200px;
 height: 200px;
 transition-duration: 0.5s;
+
 }
 
 .zdjęcia:hover{
@@ -27,6 +28,7 @@ width:600px;
 height: 600px;
 transition-duration: 1.5s;
 rotate: 9000deg;
+
 
 }
 
@@ -62,7 +64,8 @@ background-color: black;
 display:flex;
 justify-content:space-between;
 font-size: 30px;
-
+position: sticky;
+top: 0;
 
 }
 
@@ -99,3 +102,171 @@ background-color: black
 #Minecraft{
     background-color: greenyellow;
 }
+.zdjęcia{
+    border-radius: 25px;
+box-shadow: 10px 10px 5px rgb(10, 0, 19);
+margin-top: 20px;
+}
+
+
+
+
+
+.zdjęcia:hover{
+scale: 1.1;
+box-shadow: 10px 10px 5px rgb(200, 156, 239)
+}
+
+
+input{
+border-radius: 4px;
+border: 2px solid #141e30;
+padding: 20px;
+font-family: "lato", sans-serif;
+font-size: 15px;
+
+}
+legend{
+font-size: 30px;
+color:darkslategrey;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+
+
+}
+fieldset{
+margin-top: 100px;
+align-content: center;
+border: none;
+border-top: 3px solid #141e30;
+
+
+
+}
+
+label{
+display: black;
+text-align: center;
+font-size: 20px;
+}
+
+textarea{
+font-size: 20px;
+resize: none;
+margin-bottom: 20px;
+padding-left: 15px;
+border: 2px solid #141e30;
+border-radius: 4px;
+}
+
+input,
+label,
+textarea,
+#btnSubmit{
+margin-bottom: 20px;
+width: 100%;
+}
+
+
+
+
+#btnSubmit{
+background-color: #656565;
+padding: 15px;
+border: none;
+border-radius: 8px;
+font-size: 20px;
+font-family: "Kanit"sans-serif;
+color: white;
+transition-duration: 0.5s;
+background: #141e30;
+background: -webkit-linear-gradient(bottom,
+#243b55,
+#141e30);
+}
+
+#btmSumbit:hover{
+opacity: 0.6;
+cursor: pointer;
+}
+
+
+
+
+@keyframes tecza{
+
+10%{
+    color: red;
+}
+
+20%{
+    color: orange;
+
+}
+
+30%{
+color: yellow;
+
+}
+
+40%{
+color: rgb(138, 207, 27);
+
+}
+
+50%{
+color: greenyellow;
+
+}
+
+60%{
+color: dodgerblue;
+
+}
+
+70%{
+color: darkslateblue;
+
+}
+
+80%{
+color: palevioletred;
+
+}
+
+90%{
+color: darkorchid;
+
+}
+
+100%{
+color: darkmagenta;
+
+}
+
+
+
+
+}
+
+
+
+h2{
+animation:tecza 3s infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
